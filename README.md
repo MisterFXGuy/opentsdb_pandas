@@ -6,6 +6,7 @@ This module provides methods to fetch data from [OpenTSDB](http://opentsdb.net/)
 Example usage
 -------------
 
+```python
 import opentsdb_pandas as opd  
 import datetime as dt
 
@@ -23,3 +24,4 @@ Length: 5514, dtype: float64
 
 help(opd)  
 help(opd.ts_get)
+```
